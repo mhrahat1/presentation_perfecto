@@ -1,0 +1,718 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/************header start************/
+    .c_navbar{
+    padding: 10px 0;
+    }
+    .logo {
+    width: 75%;
+    }
+	.menu {
+    text-align: end;
+    }
+    .menu ul li a {
+	font-size: 16px;
+	margin-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    }
+    .menu ul li a::after {
+    height: 3px;
+    z-index: 100;
+    bottom: -3px;
+    }
+    .c_dropdown {
+    margin-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+    .d_menu {
+    bottom: -51px;
+    }
+	/************header end************/
+	/************slider start************/
+	.c_carousel-caption h5 {
+    font-size: 15px;
+    }
+    .c_carousel-caption h1 {
+    font-size: 22px;
+    margin: 3px 0;
+    }
+    .slider_button {
+    padding: 0px;
+    margin-top: 3px;
+    width: 110px;
+    height: 30px;
+    font-size: 15px;
+    }
+    .c_indicators {
+    bottom: -5%;
+    }
+    .carousel-indicators .active {
+    width: 3px !important;
+    height: 3px !important;
+    border: 4px solid #a6a6a6 !important;
+    }
+    .c_indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    border: 2px solid transparent;
+    }
+	/************slider end************/
+	/************design start************/
+	.design {
+    padding: 60px 0 170px;
+    }
+    .design_image {
+    margin-top: 12px;
+    }
+	.c_h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    word-spacing: 2px;
+    }
+	/************design end************/
+	/************service start************/
+	.service {
+    padding: 60px 0px 40px;
+    }
+    .service-content {
+    margin-bottom: 25px;
+    }
+    .service-content i {
+    font-size: 35px;
+    }
+    .c_h4 {
+    margin: 12px 0;
+    font-size: 18px;
+    }
+	/************service end************/
+	/************demos start************/
+	.demos {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    }
+    .c_h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+    .button {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    }
+    .button button i {
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    }
+    .c-s-button {
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    }
+    .c-btn {
+    margin: 0 1px 5px;
+    }
+	/************demos end************/
+	/************waesome tab start************/
+	.awesome-tab {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.c-accordion {
+    margin-top: 40px;
+}
+.acc-content {
+    margin-top: 0px;
+    width: 75%;
+}
+.wesome-heading2{
+	margin-top:40px;
+}
+.c-pbar {
+    margin-top: 40px;
+}
+	/************waesome tab end************/
+	/************feature start************/
+	.feature {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    .feature-image {
+    margin-top: 40px;
+    }
+    .feature-image::after {
+    top: -6%;
+    width: 240px;
+    height: 180px;
+    }
+	/************feature end************/
+	/************service2 start************/
+	.service2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.service2-content {
+    margin-top: 35px;
+    text-align: center;
+}
+.service2-content i {
+    font-size: 35px;
+}
+	/************service2 end************/
+		/****************theme start****************/
+	.theme{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.white-b {
+    margin-top: 20px !important;
+}
+	/****************theme end****************/
+			/****************team start****************/
+	.team{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.team-item {
+    margin-top: 30px;
+}
+	/****************team end****************/
+		/****************pricing start****************/
+	.pricing {
+    padding: 60px 0;
+}
+.pricing-content {
+    margin-top: 50px;
+}
+.pricing-content2 {
+    margin-top: 50px;
+}
+.pr-h1 {
+    font-size: 35px;
+    margin: 5px 0;
+}
+.c-body {
+    padding: 15px 0 0;
+}
+.c-body p {
+    padding: 10px 0;
+}
+.pricing-btn {
+    padding: 3px;
+}
+	/****************pricing end****************/
+			/****************story start****************/
+	.story{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.story-content {
+    margin-top: 30px;
+}
+	/****************story end****************/
+			/****************contact start****************/
+	.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.form-section {
+    margin-top: 30px;
+}
+.c-all {
+    padding: 10px;
+}
+.form_button {
+    padding: 10px;
+}
+	/****************contact end****************/
+	/****************map start****************/
+	p {
+    font-size: 15px;
+}
+	/****************map end****************/
+			/****************footer start****************/
+	footer {
+    padding: 60px 0;
+}
+.footer-icon {
+    margin-top: 30px;
+}
+.footer-icon a i {
+    font-size: 18px;
+    height: 35px;
+    width: 36px;
+    line-height: 35px;
+    margin: 0 0px;
+}
+	/****************footer end****************/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/************header start************/
+	.c_navbar{
+    padding: 15px 0;
+    }
+    .logo {
+    width: 85%;
+    }
+	.menu {
+    text-align: end;
+    }
+    .menu ul li a {
+	margin-right: 0;
+    margin-top: 10px;
+    display: inline-block;
+    }
+    .menu ul li a::after {
+    height: 3px;
+    z-index: 100;
+    bottom: -6px;
+    }
+    .d_menu {
+    bottom: -56px;
+    }
+	/************header end************/
+	/************slider start************/
+	.c_carousel-caption h5 {
+    font-size: 15px;
+    }
+    .c_carousel-caption h1 {
+    font-size: 38px;
+    margin: 5px 0;
+    }
+    .slider_button {
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    }
+    .c_indicators {
+    bottom: 5%;
+    }
+	/************slider end************/
+	/****************design start****************/
+	.design {
+    padding: 80px 0 250px 0;
+    }
+    .design_image {
+    margin-top: 10px;
+    }
+	.c_h2 {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    }
+	/****************design end****************/
+	/****************service start****************/
+	.service {
+    padding: 80px 0px 60px;
+    }
+    .service-content {
+    margin-bottom: 25px;
+    }
+    .service-content i {
+    font-size: 35px;
+    }
+    .c_h4 {
+    margin: 12px 0;
+    font-size: 18px;
+    }
+	/****************service end****************/
+	/****************demos start****************/
+	.demos {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    }
+    .c_h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+    .button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    .c-btn {
+    margin: 0 2px;
+    }
+    .c-s-button {
+    width: 105px;
+    height: 40px;
+    font-size: 14px;
+    }
+    .button button i {
+	font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+}
+	/****************demos end****************/
+	/****************awsome tab start****************/
+	.awesome-tab {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f5f5f5;
+}
+.c-accordion {
+    margin-top: 40px;
+}
+.wesome-heading2{
+	margin-top:40px;
+}
+.c-pbar {
+    margin-top: 40px;
+}
+	/****************awsome tab end****************/
+	/****************feature start****************/
+	.feature-image {
+    margin-top: 50px;
+    }
+    .feature {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+	/****************feature end****************/
+		/****************service2 start****************/
+	.service2{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.service2-content{
+	text-align: center;
+	margin-top: 40px;
+}
+.service2-content i{
+	font-size: 40px;
+}
+	/****************service2 end****************/
+		/****************theme start****************/
+	.theme{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.white-b {
+    margin-top: 25px !important;
+}
+	/****************theme end****************/
+		/****************team start****************/
+	.team{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.team-item {
+    margin-top: 40px;
+}
+	/****************team end****************/
+	/****************pricing start****************/
+	.pricing {
+    padding: 80px 0;
+}
+.pricing-content {
+    margin-top: 60px;
+}
+.pricing-content2 {
+    margin-top: 60px;
+}
+.pr-h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+.c-body {
+    padding: 25px 0 0;
+}
+.c-body p {
+    padding: 12px 0;
+}
+.pricing-btn {
+    padding: 5px;
+}
+	/****************pricing end****************/
+		/****************story start****************/
+	.story{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.story-content {
+    margin-top: 40px;
+}
+	/****************story end****************/
+		/****************contact start****************/
+	.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.form-section {
+    margin-top: 30px;
+}
+.c-all {
+    padding: 10px;
+}
+.form_button {
+    padding: 10px;
+}
+	/****************contact end****************/
+		/****************footer start****************/
+	footer {
+    padding: 80px 0;
+}
+.footer-icon {
+    margin-top: 30px;
+}
+.footer-icon a i {
+    margin: 0 2px;
+}
+	/****************footer end****************/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/************topbar start************/
+	.top-bar-content{
+	text-align: center;
+	}
+	span:nth-child(3){
+	margin-right: 0;
+	}
+	.top_icon {
+    text-align: center !important;
+    margin-top: 15px;
+    }
+    .top_icon a i {
+    margin-right: 20px;
+    }
+	/************topbar end************/
+	/************header start************/
+	.c_navbar{
+    padding: 20px 0;
+    }
+	.menu {
+    text-align: end;
+    }
+    .menu ul li a {
+	margin-right: 0;
+    margin-top: 15px;
+    display: inline-block;
+    }
+    .menu ul li a::after {
+    z-index: 100;
+    bottom: -8px;
+    }
+    .d_menu {
+    bottom: -61px;
+    }
+	/************header end************/
+	/************slider start************/
+	.c_carousel-caption h5 {
+    font-size: 20px;
+    }
+    .c_carousel-caption h1 {
+    font-size: 50px;
+    margin: 8px 0;
+    }
+    .slider_button {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    }
+    .c_indicators {
+    bottom: 3%;
+    }
+	/************slider end************/
+	/****************design start****************/
+	.design {
+    padding: 100px 0 330px 0;
+    }
+    .design_image {
+    margin-top: 20px;
+    }
+	.c_h2 {
+    font-size: 30px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    }
+	/****************design end****************/
+	/****************service start****************/
+	.service {
+    padding: 100px 10px 80px;
+    }
+    .service-content {
+        margin-bottom: 25px;
+    }
+    .service-content i {
+    font-size: 40px;
+    }
+    .c_h4 {
+    margin: 15px 0;
+    font-size: 19px;
+    }
+	/****************service end****************/
+	/****************demos start****************/
+	.demos {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    }
+    .c_h3 {
+    font-size: 20px;
+    }
+    .c-s-button {
+    height: 40px;
+    }
+    .button button i {
+    height: 40px;
+    line-height: 40px;
+    }
+    .c-btn {
+    margin: 0 2px 10px;
+    }
+	/****************demos end****************/
+	/****************awsome tab start****************/
+	.awesome-tab {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f5f5f5;
+}
+.c-accordion {
+    margin-top: 50px;
+}
+.wesome-heading2{
+	margin-top:50px;
+}
+.c-pbar {
+    margin-top: 50px;
+}
+	/****************awsome tab end****************/
+	/****************feature start****************/
+	.feature {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+	.feature-image::after {
+    width: 200px;
+    height: 160px;
+    }
+	/****************feature end****************/
+	/****************service2 start****************/
+	.service2{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.service2-content{
+	text-align: center;
+}
+.service2-content i{
+	font-size: 40px;
+}
+	/****************service2 end****************/
+	/****************theme start****************/
+	.theme{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	/****************theme end****************/
+	/****************team start****************/
+	.team{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.team-item {
+    margin-top: 50px;
+}
+	/****************team end****************/
+	/****************pricing start****************/
+	.pricing {
+    padding: 100px 0;
+}
+.pr-h1 {
+    font-size: 40px;
+}
+.c-body {
+    padding: 30px 0 0;
+}
+.c-body p {
+    padding: 15px 0;
+}
+.pricing-btn {
+    padding: 5px;
+}
+	/****************pricing end****************/
+	/****************story start****************/
+	.story{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.story-content {
+    margin-top: 40px;
+}
+	/****************story end****************/
+	/****************contact start****************/
+	.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.form-section {
+    margin-top: 40px;
+}
+.c-all {
+    padding: 10px;
+}
+.form_button {
+    padding: 10px;
+}
+	/****************contact end****************/
+	/****************footer start****************/
+	footer {
+    padding: 100px 0;
+}
+.footer-icon {
+    margin-top: 40px;
+}
+	/****************footer end****************/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/****************slider start****************/
+	.c_carousel-caption h5 {
+    font-size: 26px;
+    }
+	.c_carousel-caption h1 {
+    font-size: 70px;
+    }
+    .c_indicators {
+    bottom: 5%;
+    }
+
+	/****************slider end****************/
+	/****************design start****************/
+	.design {
+    padding: 120px 0 380px 0;
+    }
+	.c_h2 {
+    font-size: 30px;
+    word-spacing: 2px;
+    }
+	/****************design end****************/
+	/****************feature start****************/
+	.feature-image::after {
+    height: 220px;
+    }
+    /****************feature end****************/
+
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*design start*/
+	.c_h2{
+	font-size: 36px;
+    }
+   /*design start*/
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
